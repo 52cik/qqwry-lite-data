@@ -1,0 +1,33 @@
+{
+  "name": "qqwry-lite-data",
+  "version": "2019.10.1",
+  "description": "qqwry.dat for qqwry-lite",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "update.js"
+  ],
+  "scripts": {
+    "preinstall": "node update.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/qqwry-lite-data.git"
+  },
+  "keywords": [
+    "qqwry",
+    "qqwry.dat"
+  ],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/qqwry-lite-data/issues"
+  },
+  "homepage": "https://github.com/52cik/qqwry-lite-data#readme",
+  "devDependencies": {
+    "gbk.js": "^0.3.0",
+    "got": "^9.6.0",
+    "ora": "^3.4.0"
+  }
+}
