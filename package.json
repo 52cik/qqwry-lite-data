@@ -1,14 +1,14 @@
 {
   "name": "qqwry-lite-data",
-  "version": "2019.10.2",
+  "version": "2019.10.3",
   "description": "qqwry.dat for qqwry-lite",
   "main": "index.js",
   "files": [
     "index.js",
-    "update.js"
+    "qqwry.dat"
   ],
   "scripts": {
-    "preinstall": "node update.js",
+    "prepublishOnly": "node update.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
   "dependencies": {
     "gbk.js": "^0.3.0",
     "got": "^9.6.0",
-    "ora": "^3.4.0"
+    "ora": "^3.4.0",
+    "qqwry-lite": "^0.2.1"
   }
 }
